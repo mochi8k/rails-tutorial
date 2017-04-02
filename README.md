@@ -8,10 +8,13 @@ $ docker-compose run web rake db:create
 $ docker-compose up
 ```
 
-## Rails
+## Vagrant
 ```
+$ cd vagrant
+$ vagrant up
+$ vagrant ssh
 $ bundle install --without production
 $ rails db:migrate
 $ rails test
-$ rails server
+$ rails s -p 3000 -b '0.0.0.0'
 ```

@@ -20,3 +20,5 @@
 
 /vagrant/.vagrant
 /vagrant/.ruby-version
+
+/db/test.sqlite3

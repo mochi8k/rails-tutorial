@@ -36,3 +36,7 @@ end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# 追加で必要なgem
+gem 'rspec-rails', '2.13.1'
+gem 'rake', '< 11.0'
